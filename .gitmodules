@@ -1,0 +1,3 @@
+[submodule "iOSCore"]
+	path = iOSCore
+	url = git@github.com:Roxkax/iOSCore.git
