@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE6B76AD284AB4AF00E1393D /* iOSCore in Frameworks */ = {isa = PBXBuildFile; productRef = FE6B76AC284AB4AF00E1393D /* iOSCore */; };
 		FE781D8E284AA467006282B2 /* iOSSamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781D8D284AA467006282B2 /* iOSSamplesApp.swift */; };
-		FE781D90284AA467006282B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781D8F284AA467006282B2 /* ContentView.swift */; };
 		FE781D92284AA468006282B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE781D91284AA468006282B2 /* Assets.xcassets */; };
 		FE781D95284AA468006282B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE781D94284AA468006282B2 /* Preview Assets.xcassets */; };
 		FE781D9F284AA469006282B2 /* iOSSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781D9E284AA469006282B2 /* iOSSamplesTests.swift */; };
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FE781D8A284AA467006282B2 /* iOSSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE781D8D284AA467006282B2 /* iOSSamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSamplesApp.swift; sourceTree = "<group>"; };
-		FE781D8F284AA467006282B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE781D91284AA468006282B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE781D94284AA468006282B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE781D9A284AA469006282B2 /* iOSSamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6B76AD284AB4AF00E1393D /* iOSCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +72,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE6B76AB284AB4AF00E1393D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE781D81284AA467006282B2 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +87,7 @@
 				FE781D9D284AA469006282B2 /* iOSSamplesTests */,
 				FE781DA7284AA469006282B2 /* iOSSamplesUITests */,
 				FE781D8B284AA467006282B2 /* Products */,
+				FE6B76AB284AB4AF00E1393D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				FE781D8D284AA467006282B2 /* iOSSamplesApp.swift */,
-				FE781D8F284AA467006282B2 /* ContentView.swift */,
 				FE781D91284AA468006282B2 /* Assets.xcassets */,
 				FE781D93284AA468006282B2 /* Preview Content */,
 			);
@@ -153,6 +160,9 @@
 			dependencies = (
 			);
 			name = iOSSamples;
+			packageProductDependencies = (
+				FE6B76AC284AB4AF00E1393D /* iOSCore */,
+			);
 			productName = iOSSamples;
 			productReference = FE781D8A284AA467006282B2 /* iOSSamples.app */;
 			productType = "com.apple.product-type.application";
@@ -267,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE781D90284AA467006282B2 /* ContentView.swift in Sources */,
 				FE781D8E284AA467006282B2 /* iOSSamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,6 +602,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE6B76AC284AB4AF00E1393D /* iOSCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iOSCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE781D82284AA467006282B2 /* Project object */;
 }
