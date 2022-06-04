@@ -14,6 +14,7 @@
 		FE781D9F284AA469006282B2 /* iOSSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781D9E284AA469006282B2 /* iOSSamplesTests.swift */; };
 		FE781DA9284AA469006282B2 /* iOSSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781DA8284AA469006282B2 /* iOSSamplesUITests.swift */; };
 		FE781DAB284AA469006282B2 /* iOSSamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781DAA284AA469006282B2 /* iOSSamplesUITestsLaunchTests.swift */; };
+		FE8B041F284BCCA7009C9D5C /* PrimeNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B041E284BCCA7009C9D5C /* PrimeNumbersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FE781DA8284AA469006282B2 /* iOSSamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSamplesUITests.swift; sourceTree = "<group>"; };
 		FE781DAA284AA469006282B2 /* iOSSamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FE781DB8284AA692006282B2 /* iOSCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iOSCore; path = ../iOSCore; sourceTree = "<group>"; };
+		FE8B041E284BCCA7009C9D5C /* PrimeNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumbersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE6B76AB284AB4AF00E1393D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FE781D81284AA467006282B2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +82,6 @@
 				FE781D9D284AA469006282B2 /* iOSSamplesTests */,
 				FE781DA7284AA469006282B2 /* iOSSamplesUITests */,
 				FE781D8B284AA467006282B2 /* Products */,
-				FE6B76AB284AB4AF00E1393D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				FE781D8D284AA467006282B2 /* iOSSamplesApp.swift */,
+				FE8B041C284BCC2C009C9D5C /* Views */,
 				FE781D91284AA468006282B2 /* Assets.xcassets */,
 				FE781D93284AA468006282B2 /* Preview Content */,
 			);
@@ -142,6 +137,14 @@
 				FE781DB8284AA692006282B2 /* iOSCore */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		FE8B041C284BCC2C009C9D5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8B041E284BCCA7009C9D5C /* PrimeNumbersView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE781D8E284AA467006282B2 /* iOSSamplesApp.swift in Sources */,
+				FE8B041F284BCCA7009C9D5C /* PrimeNumbersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
