@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-class AppState : ObservableObject {
-    @Published var count = 0
-}
-
 @main
 struct iOSSamplesApp: App {
     var body: some Scene {
@@ -24,7 +20,7 @@ private struct ContentView : View {
     var body: some View {
         NavigationView {
             List{
-                NavigationLink(destination: PrimeNumbersView(state: AppState())) {
+                NavigationLink(destination: PrimeNumbersView(state: PrimeNumbersAppState())) {
                     Text("Prime numbers")
                 }
             }.navigationBarTitle("iOS Samples")

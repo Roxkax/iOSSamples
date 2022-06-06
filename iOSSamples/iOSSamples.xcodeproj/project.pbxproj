@@ -14,7 +14,10 @@
 		FE781D9F284AA469006282B2 /* iOSSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781D9E284AA469006282B2 /* iOSSamplesTests.swift */; };
 		FE781DA9284AA469006282B2 /* iOSSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781DA8284AA469006282B2 /* iOSSamplesUITests.swift */; };
 		FE781DAB284AA469006282B2 /* iOSSamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE781DAA284AA469006282B2 /* iOSSamplesUITestsLaunchTests.swift */; };
-		FE8B041F284BCCA7009C9D5C /* PrimeNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B041E284BCCA7009C9D5C /* PrimeNumbersView.swift */; };
+		FE785463284E669C0095EB5F /* WolframAlphaResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE785462284E669C0095EB5F /* WolframAlphaResult.swift */; };
+		FE8B041F284BCCA7009C9D5C /* PrimeNumbersContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B041E284BCCA7009C9D5C /* PrimeNumbersContentView.swift */; };
+		FED4278A284E5374004947D4 /* PrimeNumbersAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED42789284E5374004947D4 /* PrimeNumbersAppState.swift */; };
+		FED4278C284E6242004947D4 /* PrimeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4278B284E6242004947D4 /* PrimeAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,10 @@
 		FE781DA8284AA469006282B2 /* iOSSamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSamplesUITests.swift; sourceTree = "<group>"; };
 		FE781DAA284AA469006282B2 /* iOSSamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FE781DB8284AA692006282B2 /* iOSCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iOSCore; path = ../iOSCore; sourceTree = "<group>"; };
-		FE8B041E284BCCA7009C9D5C /* PrimeNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumbersView.swift; sourceTree = "<group>"; };
+		FE785462284E669C0095EB5F /* WolframAlphaResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolframAlphaResult.swift; sourceTree = "<group>"; };
+		FE8B041E284BCCA7009C9D5C /* PrimeNumbersContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumbersContentView.swift; sourceTree = "<group>"; };
+		FED42789284E5374004947D4 /* PrimeNumbersAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumbersAppState.swift; sourceTree = "<group>"; };
+		FED4278B284E6242004947D4 /* PrimeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +148,20 @@
 		FE8B041C284BCC2C009C9D5C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FE8B041E284BCCA7009C9D5C /* PrimeNumbersView.swift */,
+				FED42788284E5344004947D4 /* PrimeNumbersView */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FED42788284E5344004947D4 /* PrimeNumbersView */ = {
+			isa = PBXGroup;
+			children = (
+				FE8B041E284BCCA7009C9D5C /* PrimeNumbersContentView.swift */,
+				FED42789284E5374004947D4 /* PrimeNumbersAppState.swift */,
+				FED4278B284E6242004947D4 /* PrimeAlert.swift */,
+				FE785462284E669C0095EB5F /* WolframAlphaResult.swift */,
+			);
+			path = PrimeNumbersView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED4278C284E6242004947D4 /* PrimeAlert.swift in Sources */,
 				FE781D8E284AA467006282B2 /* iOSSamplesApp.swift in Sources */,
-				FE8B041F284BCCA7009C9D5C /* PrimeNumbersView.swift in Sources */,
+				FE785463284E669C0095EB5F /* WolframAlphaResult.swift in Sources */,
+				FED4278A284E5374004947D4 /* PrimeNumbersAppState.swift in Sources */,
+				FE8B041F284BCCA7009C9D5C /* PrimeNumbersContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
